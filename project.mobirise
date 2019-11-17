@@ -1,0 +1,1222 @@
+{
+  "settings": {
+    "name": "My Site",
+    "currentPage": "page1.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#7fc8ff"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 19,
+    "versionPublish": "4.11.5",
+    "favicon": false,
+    "": "on",
+    "noImageResize": true,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        Services\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        <span class=\"mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                        About Us\n                    </a>\n                </li>\n            </ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "qTkzRZLJNu",
+          "_anchor": "menu1-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".media-wrap": {
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              },
+              ".mbr-iconfont-logo": {
+                "font-size": "7.5rem",
+                "color": "#f36"
+              },
+              "img": {
+                "height": "6rem"
+              }
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "justify-content": "flex-end",
+                "-webkit-justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.3rem",
+                  "color": "#fff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "justify-content": "center",
+                  "-webkit-justify-content": "center"
+                }
+              }
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"https://mobirise.com/\">\n                        <img src=\"../_images/logo2.png\" alt=\"Mobirise\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">\n                    1234 Street Name\n                    <br>City, AA 99999\n                </p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">\n                    Email: support@mobirise.com\n                    <br>Phone: +1 (0) 000 0000 001\n                    <br>Fax: +1 (0) 000 0000 002\n                </p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Links\n                </h5>\n                <p class=\"mbr-text\">\n                    <a class=\"text-primary\" href=\"https://mobirise.com/\">Website builder</a>\n                    <br><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a>\n                    <br><a class=\"text-primary\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a>\n                </p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2017 Mobirise - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qTkAaeaxX5",
+          "_anchor": "footer1-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax=\"\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL SCREEN INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>\n",
+          "_cid": "rI3XWgkbYj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#767676"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked=\"\">\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\" checked=\"\">\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\" selected=\"\">Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" selected=\"\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &amp;&amp;  alignHalf==2, 'ml-auto': halfSize &amp;&amp;  alignHalf==3}\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                FULL SCREEN INTRO\n            </h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                Beautiful mobile websites\n            </h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.\n            </p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                <a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "rI3Y02EXjF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header9-4"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Site Builder Description",
+        "title": "Page 1",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        Services\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        <span class=\"mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                        About Us\n                    </a>\n                </li>\n            </ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "qTkzRZLJNu",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-5"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/kad-alem-696x789.png\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rI3ZD7HA5m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image1-a"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#7fc8ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\"><b>WALIMATUL URUS<br><br>Assalamualaikum Warahmatullahi Wabarakatuh\n<br><br></b><div><b>SITI ZAHRAH BT NGAH (K.BEDAH)\n</b></div><div><b>&amp; KELUARGA\n</b></div><div><b>&nbsp;</b></div><b><br></b><div><b>Dengan penuh kesyukuran mempersilakan \n</b></div><div><b><br></b></div><b><br></b><div><b>Tuan/Puan/Encik/Cik\n</b></div><div><b>\u000b</b></div><b><br></b><div><b>serta seisi keluarga ke&nbsp; MAJLIS SAMBUT MENANTU \n</b></div><div><b><br></b></div><b><br></b><div><b>ABDUL HALIM B. HAMZAH  \n</b></div><div><b>Dengan pasangannya\n</b></div><div><b>NURUL SUHAIDA BT ADAM  @  EMBONG\n</b></div><div><b><br></b></div><b><br></b><div><b>Pada hari \n</b></div><div><b><br></b></div><b><br></b><div><b>SABTU 07 DIS 2019 bersamaan 10 RABIULAKHIR 1441H\n</b></div><div><b><br></b></div><b><br></b><div><b>&nbsp;Di alamat\n</b></div><div><b>NO 10794-B KG BANGGOL TOK JIRING, 21060 K. TERENGGANU.\n</b></div><div><b><br></b></div><b><br></b><div><b>&nbsp;Semoga dengan kehadiran,&nbsp;\n</b></div><div><b>&nbsp;Encik/Cik/Tuan/Puan akan menyerikan lagi majlis ini,&nbsp;\n</b></div><div><b><br></b></div><b><br></b><div><b>Insya Allah&nbsp;\n</b></div><div><b>&nbsp;Aturcara Majlis:&nbsp; 12.00 Tengahari\n</b></div><div><b><br></b></div><b><br></b><div><br></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><p><img src=\"data:image/png;base64,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\" style=\"width: 50%; float: none;\">\n                </p></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rI40OJFO4P",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-c"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @color2, @bgColor)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#0f7699\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" checked condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/pelan-rumah-1280x1024.png\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_cid": "rI43Lt9iBu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image3-h"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "font-weight": "300"
+            },
+            ".number-wrap": {
+              "color": "@labelsColor",
+              "border-color": "rgba(255, 255, 255, 0.15)",
+              "position": "relative",
+              "display": "inline-block",
+              "text-align": "center",
+              "padding": "5px 10px 13px 10px",
+              "margin": "0",
+              "min-width": "118px",
+              "border-radius": "2px",
+              "max-width": "100%"
+            },
+            ".number": {
+              "font-style": "normal",
+              "font-weight": "700",
+              "font-size": "55px",
+              "text-transform": "none",
+              "letter-spacing": "-2px",
+              "word-spacing": "0",
+              "line-height": "1.3",
+              "color": "@numbersColor"
+            },
+            ".period": {
+              "display": "block",
+              "padding-top": "2px",
+              "border-top": "1px solid rgba(0, 0, 0, 0.1)"
+            },
+            ".dot": {
+              "position": "absolute",
+              "top": "-10px",
+              "right": "-1em",
+              "width": "1em",
+              "display": "block",
+              "height": "83%",
+              "overflow": "hidden",
+              "font-style": "normal",
+              "font-weight": "700",
+              "font-size": "55px",
+              "line-height": "89.65px",
+              "text-transform": "none",
+              "letter-spacing": "0",
+              "word-spacing": "0",
+              "color": "@numbersColor"
+            },
+            ".countdown-cont": {
+              "max-width": "700px",
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".dot": {
+                "display": "none"
+              }
+            },
+            "@media (max-width: 543px)": {
+              ".number-wrap": {
+                "margin-bottom": "15px"
+              }
+            },
+            "@media (max-width: 550px)": {
+              ".col-xs-3": {
+                "padding-left": "0",
+                "padding-right": "0",
+                "max-width": "25%",
+                "flex": "0 0 25%"
+              },
+              ".number-wrap": {
+                "min-width": "auto"
+              }
+            },
+            "@media (max-width: 440px)": {
+              ".number, .dot": {
+                "font-size": "40px"
+              }
+            },
+            "@media (max-width: 380px)": {
+              ".period": {
+                "font-size": "0.8rem"
+              }
+            }
+          },
+          "_name": "countdown1",
+          "_customHTML": "<section class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2019/12/07\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Days\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Hours\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutes\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Seconds\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#4f4943\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff7f9f\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            RAIKAN CINTA</h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">07 DISEMBER 2019<br>Semoga dengan kehadiran dan doa restu hadirin <br>akan menyerikan majlis ini serta mendapat<br> keberkatan daripada Allah S.W.T,<br>InsyaAllah, Terima Kasih</h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown\"></div>\n        <div class=\"countdown pt-5 mt-2\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
+          "_cid": "rI43Wos1Q6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "countdown1-i"
+        }
+      ]
+    }
+  }
+}
